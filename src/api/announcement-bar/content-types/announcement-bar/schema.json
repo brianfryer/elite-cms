@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "announcement_bars",
+  "info": {
+    "singularName": "announcement-bar",
+    "pluralName": "announcement-bars",
+    "displayName": "Announcement Bar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "is_visible": {
+      "type": "boolean",
+      "default": false
+    },
+    "blurb": {
+      "type": "text"
+    },
+    "is_button_visible": {
+      "type": "boolean",
+      "default": false
+    },
+    "button_label": {
+      "type": "string",
+      "maxLength": 20
+    },
+    "button_url": {
+      "type": "string"
+    }
+  }
+}

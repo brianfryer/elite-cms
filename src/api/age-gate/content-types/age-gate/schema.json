@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "age_gates",
+  "info": {
+    "singularName": "age-gate",
+    "pluralName": "age-gates",
+    "displayName": "Age Gate",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "visitor_instructions": {
+      "type": "string",
+      "default": "You must be 21+ in order to use this website. Please verify your age below."
+    },
+    "underage_message": {
+      "type": "string",
+      "default": "Due to regulations, you cannot be allowed to proceed."
+    },
+    "verification_question": {
+      "type": "string",
+      "default": "Are you over 21 years of age?"
+    }
+  }
+}
