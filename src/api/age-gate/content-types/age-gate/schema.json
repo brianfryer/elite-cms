@@ -12,15 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "visitor_instructions": {
+    "visitorInstructions": {
       "type": "string",
       "default": "You must be 21+ in order to use this website. Please verify your age below."
     },
-    "underage_message": {
+    "underageMessage": {
       "type": "string",
       "default": "Due to regulations, you cannot be allowed to proceed."
     },
-    "verification_question": {
+    "verificationQuestion": {
       "type": "string",
       "default": "Are you over 21 years of age?"
     }

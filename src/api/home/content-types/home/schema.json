@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroCtaBlurb": {
+      "type": "string",
+      "default": "Our text and email subscribers receive information on deals first."
+    },
+    "heroCtaButtonLabel": {
+      "type": "string",
+      "default": "Sign Up"
+    },
+    "heroCtaButtonUrl": {
+      "type": "string"
+    }
+  }
+}

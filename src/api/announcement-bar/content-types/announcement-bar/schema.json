@@ -12,22 +12,22 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "is_visible": {
+    "isVisible": {
       "type": "boolean",
       "default": false
     },
     "blurb": {
       "type": "text"
     },
-    "is_button_visible": {
+    "isButtonVisible": {
       "type": "boolean",
       "default": false
     },
-    "button_label": {
+    "buttonLabel": {
       "type": "string",
       "maxLength": 20
     },
-    "button_url": {
+    "buttonUrl": {
       "type": "string"
     }
   }
