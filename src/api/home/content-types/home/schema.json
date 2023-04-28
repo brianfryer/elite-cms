@@ -12,6 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "heroBanners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::banner.banner"
+    },
     "heroCtaBlurb": {
       "type": "string",
       "default": "Our text and email subscribers receive information on deals first."
