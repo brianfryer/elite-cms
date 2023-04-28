@@ -12,6 +12,9 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "name": {
+      "type": "string"
+    },
     "mobileImage": {
       "type": "media",
       "multiple": false,
@@ -24,14 +27,18 @@
       ]
     },
     "desktopImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "url": {
+      "type": "string"
     }
   }
 }
